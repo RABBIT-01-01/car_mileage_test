@@ -13,7 +13,7 @@ def predict(new_data):
     return pred
 
 # Streamlit UI components
-st.title("car milage Model")
+st.title("Car Milage Model")
 
 # Input fields for user to enter data
 car_year = st.number_input("Enter year:")
